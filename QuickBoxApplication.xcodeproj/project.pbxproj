@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18A15C3C1ECD89A3004984B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A15C3B1ECD89A3004984B5 /* main.m */; };
+		18A15C3F1ECD89A3004984B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A15C3E1ECD89A3004984B5 /* AppDelegate.m */; };
+		18A15C421ECD89A3004984B5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A15C411ECD89A3004984B5 /* ViewController.m */; };
+		18A15C451ECD89A3004984B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A15C431ECD89A3004984B5 /* Main.storyboard */; };
+		18A15C471ECD89A3004984B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A15C461ECD89A3004984B5 /* Assets.xcassets */; };
+		18A15C4A1ECD89A3004984B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A15C481ECD89A3004984B5 /* LaunchScreen.storyboard */; };
+		18A15C551ECD89A3004984B5 /* QuickBoxApplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A15C541ECD89A3004984B5 /* QuickBoxApplicationTests.m */; };
+		18A15C601ECD89A3004984B5 /* QuickBoxApplicationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A15C5F1ECD89A3004984B5 /* QuickBoxApplicationUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18A15C511ECD89A3004984B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A15C2F1ECD89A3004984B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18A15C361ECD89A3004984B5;
+			remoteInfo = QuickBoxApplication;
+		};
+		18A15C5C1ECD89A3004984B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A15C2F1ECD89A3004984B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18A15C361ECD89A3004984B5;
+			remoteInfo = QuickBoxApplication;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18A15C371ECD89A3004984B5 /* QuickBoxApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickBoxApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A15C3B1ECD89A3004984B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18A15C3D1ECD89A3004984B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18A15C3E1ECD89A3004984B5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18A15C401ECD89A3004984B5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18A15C411ECD89A3004984B5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18A15C441ECD89A3004984B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18A15C461ECD89A3004984B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18A15C491ECD89A3004984B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18A15C4B1ECD89A3004984B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A15C501ECD89A3004984B5 /* QuickBoxApplicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickBoxApplicationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A15C541ECD89A3004984B5 /* QuickBoxApplicationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuickBoxApplicationTests.m; sourceTree = "<group>"; };
+		18A15C561ECD89A3004984B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A15C5B1ECD89A3004984B5 /* QuickBoxApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickBoxApplicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A15C5F1ECD89A3004984B5 /* QuickBoxApplicationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuickBoxApplicationUITests.m; sourceTree = "<group>"; };
+		18A15C611ECD89A3004984B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18A15C341ECD89A3004984B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A15C4D1ECD89A3004984B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A15C581ECD89A3004984B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18A15C2E1ECD89A3004984B5 = {
+			isa = PBXGroup;
+			children = (
+				18A15C391ECD89A3004984B5 /* QuickBoxApplication */,
+				18A15C531ECD89A3004984B5 /* QuickBoxApplicationTests */,
+				18A15C5E1ECD89A3004984B5 /* QuickBoxApplicationUITests */,
+				18A15C381ECD89A3004984B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18A15C381ECD89A3004984B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18A15C371ECD89A3004984B5 /* QuickBoxApplication.app */,
+				18A15C501ECD89A3004984B5 /* QuickBoxApplicationTests.xctest */,
+				18A15C5B1ECD89A3004984B5 /* QuickBoxApplicationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18A15C391ECD89A3004984B5 /* QuickBoxApplication */ = {
+			isa = PBXGroup;
+			children = (
+				18A15C3D1ECD89A3004984B5 /* AppDelegate.h */,
+				18A15C3E1ECD89A3004984B5 /* AppDelegate.m */,
+				18A15C401ECD89A3004984B5 /* ViewController.h */,
+				18A15C411ECD89A3004984B5 /* ViewController.m */,
+				18A15C431ECD89A3004984B5 /* Main.storyboard */,
+				18A15C461ECD89A3004984B5 /* Assets.xcassets */,
+				18A15C481ECD89A3004984B5 /* LaunchScreen.storyboard */,
+				18A15C4B1ECD89A3004984B5 /* Info.plist */,
+				18A15C3A1ECD89A3004984B5 /* Supporting Files */,
+			);
+			path = QuickBoxApplication;
+			sourceTree = "<group>";
+		};
+		18A15C3A1ECD89A3004984B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18A15C3B1ECD89A3004984B5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18A15C531ECD89A3004984B5 /* QuickBoxApplicationTests */ = {
+			isa = PBXGroup;
+			children = (
+				18A15C541ECD89A3004984B5 /* QuickBoxApplicationTests.m */,
+				18A15C561ECD89A3004984B5 /* Info.plist */,
+			);
+			path = QuickBoxApplicationTests;
+			sourceTree = "<group>";
+		};
+		18A15C5E1ECD89A3004984B5 /* QuickBoxApplicationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18A15C5F1ECD89A3004984B5 /* QuickBoxApplicationUITests.m */,
+				18A15C611ECD89A3004984B5 /* Info.plist */,
+			);
+			path = QuickBoxApplicationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18A15C361ECD89A3004984B5 /* QuickBoxApplication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A15C641ECD89A3004984B5 /* Build configuration list for PBXNativeTarget "QuickBoxApplication" */;
+			buildPhases = (
+				18A15C331ECD89A3004984B5 /* Sources */,
+				18A15C341ECD89A3004984B5 /* Frameworks */,
+				18A15C351ECD89A3004984B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuickBoxApplication;
+			productName = QuickBoxApplication;
+			productReference = 18A15C371ECD89A3004984B5 /* QuickBoxApplication.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18A15C4F1ECD89A3004984B5 /* QuickBoxApplicationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A15C671ECD89A3004984B5 /* Build configuration list for PBXNativeTarget "QuickBoxApplicationTests" */;
+			buildPhases = (
+				18A15C4C1ECD89A3004984B5 /* Sources */,
+				18A15C4D1ECD89A3004984B5 /* Frameworks */,
+				18A15C4E1ECD89A3004984B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18A15C521ECD89A3004984B5 /* PBXTargetDependency */,
+			);
+			name = QuickBoxApplicationTests;
+			productName = QuickBoxApplicationTests;
+			productReference = 18A15C501ECD89A3004984B5 /* QuickBoxApplicationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18A15C5A1ECD89A3004984B5 /* QuickBoxApplicationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A15C6A1ECD89A3004984B5 /* Build configuration list for PBXNativeTarget "QuickBoxApplicationUITests" */;
+			buildPhases = (
+				18A15C571ECD89A3004984B5 /* Sources */,
+				18A15C581ECD89A3004984B5 /* Frameworks */,
+				18A15C591ECD89A3004984B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18A15C5D1ECD89A3004984B5 /* PBXTargetDependency */,
+			);
+			name = QuickBoxApplicationUITests;
+			productName = QuickBoxApplicationUITests;
+			productReference = 18A15C5B1ECD89A3004984B5 /* QuickBoxApplicationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18A15C2F1ECD89A3004984B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = QuickBox;
+				TargetAttributes = {
+					18A15C361ECD89A3004984B5 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+					18A15C4F1ECD89A3004984B5 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18A15C361ECD89A3004984B5;
+					};
+					18A15C5A1ECD89A3004984B5 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18A15C361ECD89A3004984B5;
+					};
+				};
+			};
+			buildConfigurationList = 18A15C321ECD89A3004984B5 /* Build configuration list for PBXProject "QuickBoxApplication" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18A15C2E1ECD89A3004984B5;
+			productRefGroup = 18A15C381ECD89A3004984B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18A15C361ECD89A3004984B5 /* QuickBoxApplication */,
+				18A15C4F1ECD89A3004984B5 /* QuickBoxApplicationTests */,
+				18A15C5A1ECD89A3004984B5 /* QuickBoxApplicationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18A15C351ECD89A3004984B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A15C4A1ECD89A3004984B5 /* LaunchScreen.storyboard in Resources */,
+				18A15C471ECD89A3004984B5 /* Assets.xcassets in Resources */,
+				18A15C451ECD89A3004984B5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A15C4E1ECD89A3004984B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A15C591ECD89A3004984B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18A15C331ECD89A3004984B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A15C421ECD89A3004984B5 /* ViewController.m in Sources */,
+				18A15C3F1ECD89A3004984B5 /* AppDelegate.m in Sources */,
+				18A15C3C1ECD89A3004984B5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A15C4C1ECD89A3004984B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A15C551ECD89A3004984B5 /* QuickBoxApplicationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A15C571ECD89A3004984B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A15C601ECD89A3004984B5 /* QuickBoxApplicationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18A15C521ECD89A3004984B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18A15C361ECD89A3004984B5 /* QuickBoxApplication */;
+			targetProxy = 18A15C511ECD89A3004984B5 /* PBXContainerItemProxy */;
+		};
+		18A15C5D1ECD89A3004984B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18A15C361ECD89A3004984B5 /* QuickBoxApplication */;
+			targetProxy = 18A15C5C1ECD89A3004984B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18A15C431ECD89A3004984B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18A15C441ECD89A3004984B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18A15C481ECD89A3004984B5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18A15C491ECD89A3004984B5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18A15C621ECD89A3004984B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18A15C631ECD89A3004984B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18A15C651ECD89A3004984B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QuickBoxApplication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QuickBox.QuickBoxApplication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18A15C661ECD89A3004984B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QuickBoxApplication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QuickBox.QuickBoxApplication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18A15C681ECD89A3004984B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QuickBoxApplicationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QuickBox.QuickBoxApplicationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuickBoxApplication.app/QuickBoxApplication";
+			};
+			name = Debug;
+		};
+		18A15C691ECD89A3004984B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QuickBoxApplicationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QuickBox.QuickBoxApplicationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuickBoxApplication.app/QuickBoxApplication";
+			};
+			name = Release;
+		};
+		18A15C6B1ECD89A3004984B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QuickBoxApplicationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QuickBox.QuickBoxApplicationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QuickBoxApplication;
+			};
+			name = Debug;
+		};
+		18A15C6C1ECD89A3004984B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QuickBoxApplicationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QuickBox.QuickBoxApplicationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QuickBoxApplication;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18A15C321ECD89A3004984B5 /* Build configuration list for PBXProject "QuickBoxApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A15C621ECD89A3004984B5 /* Debug */,
+				18A15C631ECD89A3004984B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18A15C641ECD89A3004984B5 /* Build configuration list for PBXNativeTarget "QuickBoxApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A15C651ECD89A3004984B5 /* Debug */,
+				18A15C661ECD89A3004984B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18A15C671ECD89A3004984B5 /* Build configuration list for PBXNativeTarget "QuickBoxApplicationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A15C681ECD89A3004984B5 /* Debug */,
+				18A15C691ECD89A3004984B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18A15C6A1ECD89A3004984B5 /* Build configuration list for PBXNativeTarget "QuickBoxApplicationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A15C6B1ECD89A3004984B5 /* Debug */,
+				18A15C6C1ECD89A3004984B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18A15C2F1ECD89A3004984B5 /* Project object */;
+}
